@@ -2,26 +2,19 @@
   "name": "learning-platform",
   "version": "1.0.0",
   "description": "Simple Learning Platform built with React",
+  "homepage": "https://kinley2001.github.io/learning-platform",
   "private": true,
-  "type": "module",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.8.0",
-    "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "react-scripts": "5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
   },
   "browserslist": {
     "production": [
@@ -34,22 +27,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "homepage": ".",
-  "engines": {
-    "node": ">=16.0.0",
-    "npm": ">=8.0.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Kinley2001/learning-platform"
-  },
-  "keywords": [
-    "react",
-    "learning-platform",
-    "education",
-    "courses"
-  ],
-  "author": "Kinley2001",
-  "license": "MIT"
+  }
 }
